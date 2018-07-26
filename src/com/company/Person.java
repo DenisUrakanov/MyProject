@@ -27,4 +27,12 @@ public class Person {
     public void setMoneyCash(int moneyCash) {
         this.moneyCash = moneyCash;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", moneyCash=" + moneyCash +
+                '}';
+    }
 }
